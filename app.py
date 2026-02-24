@@ -1,14 +1,11 @@
 import streamlit as st
 
 
-st.header("Application moyenne")
+st.header("Application de collecte")
 
 x = st.number_input("note x ")
 y = st.number_input("note  y")
+z = st.number_input("note  z")
 
-moy = (x+y)/2
-
-if st.button("OK"):
-    st.info(moy)
 
 

@@ -10,3 +10,4 @@ moy = (x+y)/2
 
 if st.button("OK"):
     st.info(moy)
+#comm
